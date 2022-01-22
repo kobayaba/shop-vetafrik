@@ -1,0 +1,10 @@
+*.log
+*.pot
+*.pyc
+__pycache__/
+db.sqlite3
+db.sqlite3-journal
+static
+media
+env
+local_settinsg.py
