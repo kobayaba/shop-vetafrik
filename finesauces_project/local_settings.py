@@ -1,4 +1,6 @@
-SECRET_KEY = ''
+#SECRET_KEY = ''
+SECRET_KEY = 'django-insecure-l+hw6!*8)=%^j+a%-qpw6o2jn=8zmbngoka=&bgp)t8=%nd$(c'
+
 
 DEBUG = True
 
@@ -10,6 +12,7 @@ DATABASES = {
 		'NAME': 'finesauces',
 		'USER': 'finesaucesadmin',
 		'PASSWORD': '09212607Fd',
-		'HOST': 'localhost'
+		'HOST': 'localhost',
+		'PORT': 5432,
 	}
 }
