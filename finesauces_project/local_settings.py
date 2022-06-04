@@ -16,3 +16,5 @@ DATABASES = {
 		'PORT': 5432,
 	}
 }
+
+CART_ID = 'cart'
